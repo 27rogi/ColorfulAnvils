@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/rogi27/colorfulanvils/main/src/main/resources/assets/colorfulanvils/icon.png" />
+<img src="https://raw.githubusercontent.com/rogi27/colorfulanvils/master/src/main/resources/assets/colorfulanvils/icon.png" />
 
 # Colorful Anvils
 ### 🎨 Use large variety of colors in anvils
@@ -13,4 +13,4 @@ This mod uses [PlaceholderAPI](https://placeholders.pb4.eu/user/text-format/) by
 **No problems are known at this moment**, but be aware because this mod uses mixins to modify original Minecraft anvil code and this may cause issues with mods that do the same thing!
 
 ### Demo
-<img src="https://raw.githubusercontent.com/rogi27/colorfulanvils/main/.github/images/demo.png" />
+<img src="https://raw.githubusercontent.com/rogi27/colorfulanvils/master/.github/images/demo.png" />
