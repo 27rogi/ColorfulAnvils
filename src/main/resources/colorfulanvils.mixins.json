@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "space.ryzhenkov.colorfulanvils.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AnvilScreenHandlerMixin"
+  ],
+  "client": [
+    "AnvilScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
