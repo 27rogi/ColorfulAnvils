@@ -25,10 +25,10 @@ jobs:
       - name: publish
         uses: Kir-Antipov/mc-publish@v3.1
         with:
-          modrinth-id: EyyEnN7W
+          modrinth-id: Di6KteGa
           modrinth-featured: true
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          curseforge-id: 633292
+          curseforge-id: 628441
           curseforge-token: ${{ secrets.CURSE_TOKEN }}
           files-primary: build/libs/!(*-@(dev|sources|shadow|all)).jar
           version: ${{ github.ref_name }}
