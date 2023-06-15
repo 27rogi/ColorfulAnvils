@@ -22,7 +22,11 @@
     ]
   },
   "mixins": [
-    "colorfulanvils.mixins.json"
+    "colorfulanvils.mixins.json",
+    {
+      "config": "colorfulanvils.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
