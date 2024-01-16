@@ -1,7 +1,6 @@
 plugins {
     id 'fabric-loom'
     id 'maven-publish'
-    id "org.jetbrains.kotlin.jvm"
 }
 
 version = "${project.mod_version}+${minecraft_version_group}"
@@ -37,7 +36,6 @@ dependencies {
     modImplementation fabricApi.module("fabric-api-base", project.fabric_version)
 
     modImplementation include("me.lucko:fabric-permissions-api:${project.permissionsapi_version}")
-    modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
     modImplementation include("eu.pb4:placeholder-api:${project.placeholderapi_version}")
 }
 
@@ -80,5 +78,3 @@ publishing {
         // retrieving dependencies.
     }
 }
-
-compileKotlin.kotlinOptions.jvmTarget = "17"

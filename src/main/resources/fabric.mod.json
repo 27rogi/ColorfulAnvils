@@ -15,10 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      {
-        "adapter": "kotlin",
-        "value": "space.ryzhenkov.colorfulanvils.ColorfulAnvils"
-      }
+      "space.ryzhenkov.colorfulanvils.ColorfulAnvils"
     ]
   },
   "mixins": [
@@ -30,7 +27,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
-    "fabric-language-kotlin": "*",
     "fabric-api": "*"
   }
 }
